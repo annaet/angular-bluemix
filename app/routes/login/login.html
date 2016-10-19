@@ -1,0 +1,20 @@
+<div class="ab-login">
+  <div class="ab-login-box">
+    <h1 class="ab-h1">Login</h1>
+
+    <div class="ab-full-width">
+      <span class="ab-login-label">Username: </span>
+      <input class="ab-login-input" type="text" ng-model="username"></input>
+    </div>
+    <div class="ab-full-width">
+      <span class="ab-login-label">Password: </span>
+      <input class="ab-login-input" type="password" ng-model="password"></input>
+    </div>
+    <div class="ab-full-width">
+      <button class="btn btn-login" ng-click="login()">Login</button>
+    </div>
+    <div class="ab-full-width ab-login-error">
+      {{error}}
+    </div>
+  </div>
+</div>

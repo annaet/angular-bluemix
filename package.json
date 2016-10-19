@@ -1,0 +1,20 @@
+{
+  "name": "angular-bluemix",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for AngularJS and Bluemix",
+  "repository": "https://github.com/annaet/angular-bluemix",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ./app.js",
+    "pretest": "npm install"
+  },
+  "dependencies": {
+    "cfenv": "1.0.x",
+    "express": "^4.14.0"
+  }
+}
